@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.flag {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border: 2px solid;
+}
+
+.card {
+    background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.card__1 {
+    background: linear-gradient(90deg, green 0% 33%, white 33% 66%, red 66% 100%);  /* Italy */
+}
+
+.card__2 {
+    background: linear-gradient(180deg, white 0% 33%, blue 33% 66%, red 66% 100%);  /* Russia */
+}
+
+.card__3 {
+    background: linear-gradient(90deg, blue 0% 33%, white 33% 66%, red 66% 100%);  /* France */
+}
+
+.card__4 {
+    background: linear-gradient(90deg, black 0% 33%, yellow 33% 66%, red 66% 100%);  /* Belgium */
+}
+
+.card__5 {
+    background: linear-gradient(180deg, white 0% 50%, red 50% 100%);  /* Poland */
+}
+
+.card__6 {
+    background: linear-gradient(180deg, yellow 0% 50%, blue 50% 75%, red 75% 100%);  /* Colombia */
+}
+
+.card__7 {
+    background: linear-gradient(180deg, red 0% 50%, white 50% 100%);  /* Indonesia */
+}
+
+.card__8 {
+    background: linear-gradient(180deg, green 0% 33%, white 33% 66%, rgb(62, 116, 210) 66% 100%);  /* Serre-Leone */
+}
